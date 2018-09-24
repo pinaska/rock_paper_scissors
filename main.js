@@ -1,74 +1,9 @@
-//initialize game 
-// const GameState = {
-//     "start" : 0,
-//     "win" : 1,
-//     "end": 2
-// };
-//use the class Game constructor?
-
-
-
-// function playGame (){
-//  // get user choice
-//     let userChoice = prompt("Do you choose rock, paper or scissors?");
-
-
-//     console.log("you choose " + userChoice);
-//     let computerChoice = 0;
-//     //get computer choice
-//     computerChoice = Math.random();
-//     if (computerChoice < 0.34) {
-//     computerChoice = "rock";
-//     } else if(computerChoice <= 0.67) {
-//     computerChoice = "paper";
-//     } else {
-//     computerChoice = "scissors";
-//     };
-
-//     //compare choices
-//     function compare(choice1, choice2){
-//         const displayComp = "Computer choice is "
-//         if(choice1===choice2){
-//             console.log( displayComp + choice2  +" - The result is a tie!");
-//             }
-//         else if ( choice1==="rock"){
-//                 if( choice2==="scissors"){
-//                     console.log(displayComp + choice2  + " and rock wins");
-//                 }
-//                 else{ console.log(displayComp + choice2  + " and paper wins");
-//                 }
-
-//             }
-//         else if (choice1 === "paper"){
-//                 if ( choice2=== "rock"){
-//                     console.log(displayComp + choice2  +" and paper wins");
-//                 }
-//                 else {console.log(displayComp + choice2  +" and scissors wins");
-//                 }
-//             }
-//         else if (choice1 === "paper"){
-//                 if ( choice2userChoice === "rock"){
-//                     console.log(displayComp + choice2  +" and paper wins");
-//                 }
-//                 else{console.log(displayComp + choice2  +" and scissors wins");
-//                 }
-//             }
-//         };
-
-//     console.log(compare(userChoice, computerChoice));
-
-
-//     function displayResult(compare){
-
-//     };
-// };
-//playGame();
 const computer = {
     name: "computer",
     score: 0,
     pick: ""
 };
-var player = {
+const player = {
     name: "",
     score: 0,
     pick: ""
@@ -144,4 +79,70 @@ function playerPick(pick) {
     computerPick(); //choose computer's pick
     checkResult(); //check result
 };
+
+//initialize game
+// const GameState = {
+//     "start" : 0,
+//     "win" : 1,
+//     "end": 2
+// };
+//use the class Game constructor?
+
+
+
+// function playGame (){
+//  // get user choice
+//     let userChoice = prompt("Do you choose rock, paper or scissors?");
+
+
+//     console.log("you choose " + userChoice);
+//     let computerChoice = 0;
+//     //get computer choice
+//     computerChoice = Math.random();
+//     if (computerChoice < 0.34) {
+//     computerChoice = "rock";
+//     } else if(computerChoice <= 0.67) {
+//     computerChoice = "paper";
+//     } else {
+//     computerChoice = "scissors";
+//     };
+
+//     //compare choices
+//     function compare(choice1, choice2){
+//         const displayComp = "Computer choice is "
+//         if(choice1===choice2){
+//             console.log( displayComp + choice2  +" - The result is a tie!");
+//             }
+//         else if ( choice1==="rock"){
+//                 if( choice2==="scissors"){
+//                     console.log(displayComp + choice2  + " and rock wins");
+//                 }
+//                 else{ console.log(displayComp + choice2  + " and paper wins");
+//                 }
+
+//             }
+//         else if (choice1 === "paper"){
+//                 if ( choice2=== "rock"){
+//                     console.log(displayComp + choice2  +" and paper wins");
+//                 }
+//                 else {console.log(displayComp + choice2  +" and scissors wins");
+//                 }
+//             }
+//         else if (choice1 === "paper"){
+//                 if ( choice2userChoice === "rock"){
+//                     console.log(displayComp + choice2  +" and paper wins");
+//                 }
+//                 else{console.log(displayComp + choice2  +" and scissors wins");
+//                 }
+//             }
+//         };
+
+//     console.log(compare(userChoice, computerChoice));
+
+
+//     function displayResult(compare){
+
+//     };
+// };
+//playGame();
 
